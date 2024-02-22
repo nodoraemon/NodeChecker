@@ -1,0 +1,15 @@
+# common_post_to_slack.conf
+
+# Slackの設定
+SLACK_WEBHOOK_URL="<YOUR_SLACK_WEBHOOK_URL>"
+
+# LINEの設定
+LINE_TOKEN="<YOUR_LINE_TOKEN>"
+
+# 通知設定
+# 0 = 通知なし, 1 = Slackのみ, 2 = LINEのみ, 3 = 両方
+NOTIFY_MODE=0
+
+# pm2 monitに出力する制御（trueで出力、falseで非出力）
+MONITOR_INFO=true
+
